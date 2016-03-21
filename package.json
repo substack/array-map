@@ -13,6 +13,9 @@
     "type": "git",
     "url": "git://github.com/substack/array-map.git"
   },
+  "files": [
+    "index.js"
+  ],
   "homepage": "https://github.com/substack/array-map",
   "keywords": [
     "array",
