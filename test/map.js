@@ -24,7 +24,7 @@ test('elements and indexes', function (t) {
         'index check'
     );
     t.deepEqual(
-        map([x,y,z], function (c, i) { return i }),
+        map(cripple([x,y,z]), function (c, i) { return i }),
         [ 0, 1, 2 ],
         'crippled index check'
     );
